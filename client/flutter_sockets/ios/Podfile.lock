@@ -1,0 +1,34 @@
+PODS:
+  - adhara_socket_io (0.0.1):
+    - Flutter
+    - Socket.IO-Client-Swift
+    - Starscream (<= 3.0.5)
+  - Flutter (1.0.0)
+  - Socket.IO-Client-Swift (13.4.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.5)
+
+DEPENDENCIES:
+  - adhara_socket_io (from `.symlinks/plugins/adhara_socket_io/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  adhara_socket_io:
+    :path: ".symlinks/plugins/adhara_socket_io/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  adhara_socket_io: 5175561f05cb22391f694c95d58ae961f4d92ea2
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Socket.IO-Client-Swift: 2b2720f14c92ff1237ced09bc2f2da2022624fee
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.6.1
